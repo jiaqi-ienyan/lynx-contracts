@@ -1,5 +1,5 @@
 {
-  "name": "@lido-sdk/contracts",
+  "name": "@lynx-sdk/contracts",
   "version": "0.0.0-semantic-release",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jiaqi-ienyan/lynx-contracts",
+    "url": "https://github.com/jiaqi-ienyan/lynx-contracts.git",
     "directory": "packages/contracts"
   },
   "sideEffects": false,
@@ -24,7 +24,7 @@
     "@ethersproject/bytes": "^5.4.0",
     "@ethersproject/contracts": "^5.4.1",
     "@ethersproject/providers": "^5.4.5",
-    "lynx/providers": "jiaqi-ienyan/lynx-providers#main",
+    "@lynx-sdk/providers": "jiaqi-ienyan/lynx-providers#main",
     "@typechain/ethers-v5": "^7.1.0",
     "@types/jest": "^27.0.2",
     "ethers": "^5.4.7",
@@ -38,7 +38,7 @@
     "ethers": "5"
   },
   "dependencies": {
-    "lynx/constants": "jiaqi-ienyan/lynx-constants#main",
+    "@lynx-sdk/constants": "jiaqi-ienyan/lynx-constants#main",
     "tiny-invariant": "^1.1.0"
   }
 }
