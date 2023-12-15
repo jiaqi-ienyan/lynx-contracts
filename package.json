@@ -1,0 +1,44 @@
+{
+  "name": "@lido-sdk/contracts",
+  "version": "0.0.0-semantic-release",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiaqi-ienyan/lynx-contracts",
+    "directory": "packages/contracts"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "typechain": "typechain --target=ethers-v5 --out-dir ./src/generated './src/abi/*.json'"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "devDependencies": {
+    "@ethersproject/abi": "^5.4.1",
+    "@ethersproject/abstract-signer": "^5.4.0",
+    "@ethersproject/bytes": "^5.4.0",
+    "@ethersproject/contracts": "^5.4.1",
+    "@ethersproject/providers": "^5.4.5",
+    "lynx/providers": "jiaqi-ienyan/lynx-providers#main",
+    "@typechain/ethers-v5": "^7.1.0",
+    "@types/jest": "^27.0.2",
+    "ethers": "^5.4.7",
+    "typechain": "^5.1.2",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "@ethersproject/abstract-signer": "5",
+    "@ethersproject/contracts": "5",
+    "@ethersproject/providers": "5",
+    "ethers": "5"
+  },
+  "dependencies": {
+    "lynx/constants": "jiaqi-ienyan/lynx-constants#main",
+    "tiny-invariant": "^1.1.0"
+  }
+}
