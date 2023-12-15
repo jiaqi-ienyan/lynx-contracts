@@ -346,13 +346,13 @@
 
 "@lynx-sdk/constants@jiaqi-ienyan/lynx-constants#main":
   version "0.0.0-semantic-release"
-  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-constants/tar.gz/58d4b6d31f6232263bed26c80c1a21628bbede37"
+  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-constants/tar.gz/2b4932c063acea96fcd02d86faa86884c376efe5"
   dependencies:
     tiny-invariant "^1.1.0"
 
 "@lynx-sdk/providers@jiaqi-ienyan/lynx-providers#main":
   version "0.0.0-semantic-release"
-  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-providers/tar.gz/8294fe69f0fe43c183f9e479b350b89dac6bba5f"
+  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-providers/tar.gz/f46dcda0c8b3132fee9a9cd4aa7244eadca806f7"
   dependencies:
     "@lynx-sdk/constants" jiaqi-ienyan/lynx-constants#main
 
@@ -371,6 +371,13 @@
   dependencies:
     jest-matcher-utils "^27.0.0"
     pretty-format "^27.0.0"
+
+"@types/node@^20.10.4":
+  version "20.10.4"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-20.10.4.tgz#b246fd84d55d5b1b71bf51f964bd514409347198"
+  integrity sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/prettier@^2.1.1":
   version "2.7.3"
@@ -761,15 +768,20 @@ typechain@^5.1.2:
     prettier "^2.1.2"
     ts-essentials "^7.0.1"
 
-typescript@^4.4.3:
-  version "4.9.5"
-  resolved "https://registry.npmmirror.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
+typescript@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.npmmirror.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
+  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
 typical@^2.6.0, typical@^2.6.1:
   version "2.6.1"
   resolved "https://registry.npmmirror.com/typical/-/typical-2.6.1.tgz#5c080e5d661cbbe38259d2e70a3c7253e873881d"
   integrity sha512-ofhi8kjIje6npGozTip9Fr8iecmYfEbS06i0JnIg+rh51KakryWF4+jX8lLKZVhy6N+ID45WYSFCxPOdTWCzNg==
+
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.npmmirror.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
 universalify@^0.1.0:
   version "0.1.2"
