@@ -344,25 +344,17 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
-"@lido-sdk/constants@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.npmmirror.com/@lido-sdk/constants/-/constants-3.2.1.tgz#0c4582d7e76e4f8bc42e8f3c0d14dc0fbe481d77"
-  integrity sha512-zes0Mw0r1nEQYBNHV5fxK2H9Byowejy4haFy9LYDh1nL72aNJzzdh5S5iM+pKlEuLHQJHV5lVO/k9tunNJIKqQ==
-  dependencies:
-    tiny-invariant "^1.1.0"
-
-"@lido-sdk/constants@jiaqi-ienyan/lynx-constants#main":
+"@lynx-sdk/constants@jiaqi-ienyan/lynx-constants#main":
   version "0.0.0-semantic-release"
-  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-constants/tar.gz/c7088a8ccfc56a9731646533c1b21170c7de8fc4"
+  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-constants/tar.gz/58d4b6d31f6232263bed26c80c1a21628bbede37"
   dependencies:
     tiny-invariant "^1.1.0"
 
-"@lido-sdk/providers@workspace:*":
-  version "1.4.14"
-  resolved "https://registry.npmmirror.com/@lido-sdk/providers/-/providers-1.4.14.tgz#b7c714aa753d662c0d51f71ee4990b3cb78ce790"
-  integrity sha512-m422uXuaGoXoUlF8oyFTIQsj8ljVet/x7nK0xF8UoURm/iuaAhTbEXpcxhmkx8JSSDli1928apJRAwxG0McgnQ==
+"@lynx-sdk/providers@jiaqi-ienyan/lynx-providers#main":
+  version "0.0.0-semantic-release"
+  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-providers/tar.gz/8294fe69f0fe43c183f9e479b350b89dac6bba5f"
   dependencies:
-    "@lido-sdk/constants" "3.2.1"
+    "@lynx-sdk/constants" jiaqi-ienyan/lynx-constants#main
 
 "@typechain/ethers-v5@^7.1.0":
   version "7.2.0"

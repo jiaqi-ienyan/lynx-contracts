@@ -7,7 +7,7 @@ node_modules
 /.pnp.*
 /.jest
 dist
-**/src/generated
+# **/src/generated
 
 # Editors
 .idea
