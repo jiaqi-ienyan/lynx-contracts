@@ -346,14 +346,14 @@
 
 "@lido-sdk/constants@git+https://github.com/jiaqi-ienyan/lynx-constants.git":
   version "0.0.0-semantic-release"
-  resolved "git+https://github.com/jiaqi-ienyan/lynx-constants.git#6df1f7e7c1e811eb9af650afcd883e53f33abce2"
+  resolved "git+https://github.com/jiaqi-ienyan/lynx-constants.git#c293d228dd0f4f8ff1868f9ee72884c9fc07482b"
   dependencies:
     tiny-invariant "^1.1.0"
     typescript "^5.3.3"
 
 "@lido-sdk/providers@git+https://github.com/jiaqi-ienyan/lynx-providers.git":
   version "0.0.0-semantic-release"
-  resolved "git+https://github.com/jiaqi-ienyan/lynx-providers.git#b6a108905095f1106440a0eeb39e826bc04f20e9"
+  resolved "git+https://github.com/jiaqi-ienyan/lynx-providers.git#f000f4d664dbc727b51a01e769d59a757fd6c73b"
   dependencies:
     "@lido-sdk/constants" "git+https://github.com/jiaqi-ienyan/lynx-constants.git"
     typescript "^5.3.3"
