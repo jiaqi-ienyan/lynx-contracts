@@ -344,18 +344,18 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
-"@lynx-sdk/constants@git+https://github.com/jiaqi-ienyan/lynx-constants.git":
+"@lido-sdk/constants@git+https://github.com/jiaqi-ienyan/lynx-constants.git":
   version "0.0.0-semantic-release"
   resolved "git+https://github.com/jiaqi-ienyan/lynx-constants.git#6df1f7e7c1e811eb9af650afcd883e53f33abce2"
   dependencies:
     tiny-invariant "^1.1.0"
     typescript "^5.3.3"
 
-"@lynx-sdk/providers@git+https://github.com/jiaqi-ienyan/lynx-providers.git":
+"@lido-sdk/providers@git+https://github.com/jiaqi-ienyan/lynx-providers.git":
   version "0.0.0-semantic-release"
-  resolved "git+https://github.com/jiaqi-ienyan/lynx-providers.git#dc9cc977709bb342706300d03338e8abec2613b1"
+  resolved "git+https://github.com/jiaqi-ienyan/lynx-providers.git#b6a108905095f1106440a0eeb39e826bc04f20e9"
   dependencies:
-    "@lynx-sdk/constants" "git+https://github.com/jiaqi-ienyan/lynx-constants.git"
+    "@lido-sdk/constants" "git+https://github.com/jiaqi-ienyan/lynx-constants.git"
     typescript "^5.3.3"
 
 "@typechain/ethers-v5@^7.1.0":
