@@ -344,18 +344,18 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
-"@lynx-sdk/constants@jiaqi-ienyan/lynx-constants#main":
+"@lynx-sdk/constants@git+https://github.com/jiaqi-ienyan/lynx-constants.git":
   version "0.0.0-semantic-release"
-  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-constants/tar.gz/6df1f7e7c1e811eb9af650afcd883e53f33abce2"
+  resolved "git+https://github.com/jiaqi-ienyan/lynx-constants.git#6df1f7e7c1e811eb9af650afcd883e53f33abce2"
   dependencies:
     tiny-invariant "^1.1.0"
     typescript "^5.3.3"
 
-"@lynx-sdk/providers@jiaqi-ienyan/lynx-providers#main":
+"@lynx-sdk/providers@git+https://github.com/jiaqi-ienyan/lynx-providers.git":
   version "0.0.0-semantic-release"
-  resolved "https://codeload.github.com/jiaqi-ienyan/lynx-providers/tar.gz/f4f88032cdc54bf1cc77d51d50e4d91514db4130"
+  resolved "git+https://github.com/jiaqi-ienyan/lynx-providers.git#dc9cc977709bb342706300d03338e8abec2613b1"
   dependencies:
-    "@lynx-sdk/constants" jiaqi-ienyan/lynx-constants#main
+    "@lynx-sdk/constants" "git+https://github.com/jiaqi-ienyan/lynx-constants.git"
     typescript "^5.3.3"
 
 "@typechain/ethers-v5@^7.1.0":

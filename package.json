@@ -24,7 +24,7 @@
     "@ethersproject/bytes": "^5.4.0",
     "@ethersproject/contracts": "^5.4.1",
     "@ethersproject/providers": "^5.4.5",
-    "@lynx-sdk/providers": "jiaqi-ienyan/lynx-providers#main",
+    "@lynx-sdk/providers": "git+https://github.com/jiaqi-ienyan/lynx-providers.git",
     "@typechain/ethers-v5": "^7.1.0",
     "@types/jest": "^27.0.2",
     "@types/node": "^20.10.4",
@@ -39,7 +39,7 @@
     "ethers": "5"
   },
   "dependencies": {
-    "@lynx-sdk/constants": "jiaqi-ienyan/lynx-constants#main",
+    "@lynx-sdk/constants": "git+https://github.com/jiaqi-ienyan/lynx-constants.git",
     "tiny-invariant": "^1.1.0"
   }
 }
